@@ -1,7 +1,29 @@
 aid: desano
-name: desano
-description: desano is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/desano.png
+name: Shanghai Desano Pharmaceutical Group
+description: 'Shanghai Desano Pharmaceutical Group Co., Ltd. is a Chinese pharmaceutical
+  company established in 1996 and headquartered in Shanghai''s Zhangjiang High-Tech
+  Park. It develops and commercializes medications addressing global public health
+  needs, specializing in anti-AIDS (antiretroviral) and anti-malaria drugs, steroid
+  hormone drugs, and nucleic acid drugs, with operations spanning R&D, manufacturing,
+  regulatory registration, and international distribution across multiple production
+  bases in Shanghai, Jiangsu, and Jiangxi. Note: in this company''s domain "API" means
+  Active Pharmaceutical Ingredient (drug chemistry), not a web/developer API. Desano
+  publishes no developer API, OpenAPI, SDK, developer portal, or other machine-readable
+  API surface, so the API Evangelist enrichment pipeline has no technical artifacts
+  to produce for this provider. It was surfaced as a false-positive lead from the
+  Qiming venture portfolio.'
 url: https://raw.githubusercontent.com/api-evangelist/desano/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +31,20 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-status: no-api-surface
+x-enrichment-note: 'Pharmaceutical company (APIs = Active Pharmaceutical Ingredients);
+  no web/developer API, OpenAPI, SDK, or developer portal found. False-positive VC-portfolio
+  lead. Website apex desano.com does not resolve; canonical host is www.desano.com.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Pharmaceutical
+- Healthcare
+- Life Sciences
+- Manufacturing
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://desano.com
+  url: https://www.desano.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
