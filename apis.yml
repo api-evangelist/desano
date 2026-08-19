@@ -35,7 +35,7 @@ x-enrichment-status: no-api-surface
 x-enrichment-note: 'Pharmaceutical company (APIs = Active Pharmaceutical Ingredients);
   no web/developer API, OpenAPI, SDK, or developer portal found. False-positive VC-portfolio
   lead. Website apex desano.com does not resolve; canonical host is www.desano.com.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
